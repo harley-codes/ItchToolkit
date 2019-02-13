@@ -1,0 +1,201 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ItchToolkit</name>
+    </assembly>
+    <members>
+        <member name="T:ItchToolkit.DownloadKeyRequest">
+            <summary>
+            Container for Itch API's Downlod_Key Response
+            </summary>
+        </member>
+        <member name="T:ItchToolkit.DownloadKeyRequest.RequestType">
+            <summary>
+            Tpyes of information retrievable from DownloadKeyRequest
+            </summary>
+        </member>
+        <member name="T:ItchToolkit.DownloadKeyRequest.RequestType.DownloadKey">
+            <summary>
+            Container for information relevent to requested Downlod_Key
+            </summary>
+        </member>
+        <member name="F:ItchToolkit.DownloadKeyRequest.RequestType.DownloadKey.dateCreated">
+            <summary>
+            Date Downlod_Key was created
+            </summary>
+        </member>
+        <member name="F:ItchToolkit.DownloadKeyRequest.RequestType.DownloadKey.gameID">
+            <summary>
+            Game ID Downlod_Key belongs to
+            </summary>
+        </member>
+        <member name="F:ItchToolkit.DownloadKeyRequest.RequestType.DownloadKey.downloads">
+            <summary>
+            How many times game has been downbload from specific Downlod_Key
+            </summary>
+        </member>
+        <member name="F:ItchToolkit.DownloadKeyRequest.RequestType.DownloadKey.keyID">
+            <summary>
+            Unique id for that Downlod_Key
+            </summary>
+        </member>
+        <member name="F:ItchToolkit.DownloadKeyRequest.RequestType.DownloadKey.owner">
+            <summary>
+            Container for information relevent to the user of said Downlod_Key
+            </summary>
+        </member>
+        <member name="F:ItchToolkit.DownloadKeyRequest.RequestType.DownloadKey.downloadKey">
+            <summary>
+            The download key itself
+            </summary>
+        </member>
+        <member name="T:ItchToolkit.DownloadKeyRequest.RequestType.ErrorType">
+            <summary>
+            Types of errors that can be returned from Itch.io API Downlod_Key request
+            </summary>
+        </member>
+        <member name="F:ItchToolkit.DownloadKeyRequest.RequestType.ErrorType.InvalidKey">
+            <summary>
+            {"errors":["invalid key"]}
+            </summary>
+        </member>
+        <member name="F:ItchToolkit.DownloadKeyRequest.RequestType.ErrorType.InvalidGameID">
+            <summary>
+            {"errors":["game_id must be an integer"]} or {"errors":["invalid game_id"]}
+            </summary>
+        </member>
+        <member name="F:ItchToolkit.DownloadKeyRequest.RequestType.ErrorType.NoDownloadKey">
+            <summary>
+            {"errors":["no download key found"]}
+            </summary>
+        </member>
+        <member name="F:ItchToolkit.DownloadKeyRequest.RequestType.ErrorType.DetailsMissing">
+            <summary>
+            Custom error, for when the user has passed NULL values to the request.
+            </summary>
+        </member>
+        <member name="F:ItchToolkit.DownloadKeyRequest.RequestType.ErrorType.NULL">
+            <summary>
+            No Error returned
+            </summary>
+        </member>
+        <member name="F:ItchToolkit.DownloadKeyRequest.downloadKey">
+            <summary>
+            Container for information relevent to requested Downlod_Key
+            </summary>
+        </member>
+        <member name="F:ItchToolkit.DownloadKeyRequest.error">
+            <summary>
+            Error returned from Itch.io API Downlod_Key request
+            </summary>
+        </member>
+        <member name="M:ItchToolkit.DownloadKeyRequest.#ctor(System.String,System.String,System.String)">
+            <summary>
+            Create new container for Itch API's Downlod_Key Response
+            </summary>
+            <param name="yourKey"></param>
+            <param name="gameID"></param>
+            <param name="userID"></param>
+        </member>
+        <member name="T:ItchToolkit.ItchUserRequest">
+            <summary>
+            Container for Itch API's Profile Response
+            </summary>
+        </member>
+        <member name="T:ItchToolkit.ItchUserRequest.RequestType">
+            <summary>
+            Tpyes of information retrievable from ItchUserRequest
+            </summary>
+        </member>
+        <member name="T:ItchToolkit.ItchUserRequest.RequestType.User">
+            <summary>
+            Container for information relevent to requested User
+            </summary>
+        </member>
+        <member name="F:ItchToolkit.ItchUserRequest.RequestType.User.avatarURL">
+            <summary>
+            URL address for avatar image
+            </summary>
+        </member>
+        <member name="F:ItchToolkit.ItchUserRequest.RequestType.User.displayName">
+            <summary>
+            Users preferred displa name
+            </summary>
+        </member>
+        <member name="F:ItchToolkit.ItchUserRequest.RequestType.User.isDeveloper">
+            <summary>
+            If the user has previously published a game on Itch.io
+            </summary>
+        </member>
+        <member name="F:ItchToolkit.ItchUserRequest.RequestType.User.userID">
+            <summary>
+            Unique ID relevent to User
+            </summary>
+        </member>
+        <member name="F:ItchToolkit.ItchUserRequest.RequestType.User.profileURL">
+            <summary>
+            URL address for user profile
+            </summary>
+        </member>
+        <member name="F:ItchToolkit.ItchUserRequest.RequestType.User.isGamer">
+            <summary>
+            If the user has previusly downloaded a game
+            </summary>
+        </member>
+        <member name="F:ItchToolkit.ItchUserRequest.RequestType.User.userName">
+            <summary>
+            Username of the user
+            </summary>
+        </member>
+        <member name="F:ItchToolkit.ItchUserRequest.RequestType.User.isPressUser">
+            <summary>
+            If the user is of press status
+            </summary>
+        </member>
+        <member name="T:ItchToolkit.ItchUserRequest.RequestType.ErrorType">
+            <summary>
+            Types of errors that can be returned from Itch.io API Profile:Me request
+            </summary>
+        </member>
+        <member name="F:ItchToolkit.ItchUserRequest.RequestType.ErrorType.InvalidKey">
+            <summary>
+            {"errors":["invalid key"]}
+            </summary>
+        </member>
+        <member name="F:ItchToolkit.ItchUserRequest.RequestType.ErrorType.DetailsMissing">
+            <summary>
+            Custom error, for when the user has passed NULL values to the request.
+            </summary>
+        </member>
+        <member name="F:ItchToolkit.ItchUserRequest.RequestType.ErrorType.NULL">
+            <summary>
+            No Error returned
+            </summary>
+        </member>
+        <member name="F:ItchToolkit.ItchUserRequest.user">
+            <summary>
+            Container for information relevent to the requested Profile:Me
+            </summary>
+        </member>
+        <member name="F:ItchToolkit.ItchUserRequest.requestError">
+            <summary>
+            Error returned from Itch.io API Profile:Me request
+            </summary>
+        </member>
+        <member name="M:ItchToolkit.ItchUserRequest.#ctor(System.String)">
+            <summary>
+            Create a new container for information relevent to requested User
+            </summary>
+            <param name="userKey"></param>
+        </member>
+        <member name="M:ItchToolkit.ItchUserRequest.IsGameOwned(System.String,System.String)">
+            <summary>
+            Returns False if any other codition apart from Owned is met
+            To get full request information use ItchToolkit.DownloadKeyRequest()
+            </summary>
+            <param name="yourKey"></param>
+            <param name="gameID"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
