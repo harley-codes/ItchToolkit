@@ -5,17 +5,17 @@ using System.Text;
 namespace ItchToolkit
 {
     /// <summary>
-    /// Container for Itch API's Downlod_Key Response
+    /// Checks if a download key exists for game and returns it.
     /// </summary>
     public class DownloadKeyRequest
     {
         /// <summary>
-        /// Tpyes of information retrievable from DownloadKeyRequest
+        /// Request types compatible with download_keys API Call.
         /// </summary>
         public class RequestType
         {
             /// <summary>
-            /// Container for information relevent to requested Downlod_Key
+            /// Detailed information on a Downlod_Key.
             /// </summary>
             public class DownloadKey
             {
@@ -28,7 +28,7 @@ namespace ItchToolkit
                 /// </summary>
                 public int gameID;
                 /// <summary>
-                /// How many times game has been downbload from specific Downlod_Key
+                /// How many times game has been download from specific Downlod_Key
                 /// </summary>
                 public int downloads;
                 /// <summary>
@@ -36,7 +36,7 @@ namespace ItchToolkit
                 /// </summary>
                 public int keyID;
                 /// <summary>
-                /// Container for information relevent to the user of said Downlod_Key
+                /// Container for information relevant to the user of said Downlod_Key
                 /// </summary>
                 public ItchUserRequest.RequestType.User owner;
                 /// <summary>
@@ -72,7 +72,7 @@ namespace ItchToolkit
             }
         }
         /// <summary>
-        /// Container for information relevent to requested Downlod_Key
+        /// Container for information relevant to requested Downlod_Key
         /// </summary>
         public RequestType.DownloadKey downloadKey;
         /// <summary>
@@ -80,7 +80,9 @@ namespace ItchToolkit
         /// </summary>
         public RequestType.ErrorType error = RequestType.ErrorType.NULL;
         /// <summary>
-        /// Create new container for Itch API's Downlod_Key Response
+        /// Fetches a download key from and API call.
+        /// <para></para>
+        /// If it exists for game and returns it.
         /// </summary>
         /// <param name="yourKey"></param>
         /// <param name="gameID"></param>

@@ -6,12 +6,12 @@
     public class ItchUserRequest
     {
         /// <summary>
-        /// Tpyes of information retrievable from ItchUserRequest
+        /// Types of information retrievable from ItchUserRequest
         /// </summary>
         public class RequestType
         {
             /// <summary>
-            /// Container for information relevent to requested User
+            /// Container for information relevant to requested User
             /// </summary>
             public class User
             {
@@ -20,7 +20,7 @@
                 /// </summary>
                 public string avatarURL;
                 /// <summary>
-                /// Users preferred displa name
+                /// Users preferred display name
                 /// </summary>
                 public string displayName;
                 /// <summary>
@@ -28,7 +28,7 @@
                 /// </summary>
                 public bool isDeveloper;
                 /// <summary>
-                /// Unique ID relevent to User
+                /// Unique ID relevant to User
                 /// </summary>
                 public int userID;
                 /// <summary>
@@ -36,11 +36,11 @@
                 /// </summary>
                 public string profileURL;
                 /// <summary>
-                /// If the user has previusly downloaded a game
+                /// If the user has previously downloaded a game
                 /// </summary>
                 public bool isGamer;
                 /// <summary>
-                /// Username of the user
+                /// User name of the user
                 /// </summary>
                 public string userName;
                 /// <summary>
@@ -68,7 +68,7 @@
             }
         }
         /// <summary>
-        /// Container for information relevent to the requested Profile:Me
+        /// Container for information relevant to the requested Profile:Me
         /// </summary>
         public RequestType.User user;
         /// <summary>
@@ -76,7 +76,7 @@
         /// </summary>
         public RequestType.ErrorType requestError = RequestType.ErrorType.NULL;
         /// <summary>
-        /// Create a new container for information relevent to requested User
+        /// Create a new container for information relevant to requested User
         /// </summary>
         /// <param name="userKey"></param>
         public ItchUserRequest(string userKey)
@@ -101,7 +101,7 @@
             }
         }
         /// <summary>
-        /// Returns False if any other codition apart from Owned is met.
+        /// Returns False if any other condition apart from Owned is met.
         /// To get full request information use ItchToolkit.DownloadKeyRequest()
         /// </summary>
         /// <param name="yourKey"></param>

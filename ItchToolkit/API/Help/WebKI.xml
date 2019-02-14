@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpKI>
+  <HelpKINode Title="avatarURL field" Url="html/69201c4c-b20c-e4d1-3450-cae4bac0a9e6.htm" />
+  <HelpKINode Title="createdDate field" Url="html/a7e77cf0-8630-e528-0c0a-414bd6811e7d.htm" />
+  <HelpKINode Title="currency field" Url="html/89b8a9e6-dca1-5c74-8332-3fc87c90d95d.htm" />
+  <HelpKINode Title="dateCreated field" Url="html/e63e049c-5338-64e9-cecf-c46de388e7e2.htm" />
+  <HelpKINode Title="DetailsMissing enumeration member">
+    <HelpKINode Title="DeveloperGamesRequest.RequestType.ErrorType Enumeration" Url="html/1c9c9410-67b0-da1f-a5f3-936935f62cd5.htm" />
+    <HelpKINode Title="DownloadKeyRequest.RequestType.ErrorType Enumeration" Url="html/5c4c311d-41db-05ed-b80d-68cd2503c189.htm" />
+    <HelpKINode Title="ItchUserRequest.RequestType.ErrorType Enumeration" Url="html/4398cc95-6286-ff30-8e33-7822b42f34e1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DeveloperGamesRequest class">
+    <HelpKINode Title="DeveloperGamesRequest Class" Url="html/e7cd1a55-ad5a-0ac5-5aef-fbbb9e8cdca2.htm" />
+    <HelpKINode Title="constructor" Url="html/ad70d4c4-cb92-d884-13ea-0588e7df1ca5.htm" />
+    <HelpKINode Title="fields" Url="html/1e13a873-6df4-8100-2a6c-763c773464f4.htm" />
+    <HelpKINode Title="methods" Url="html/0b1e2b29-2d28-6c50-e2e4-1090a57323a6.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DeveloperGamesRequest.DeveloperGamesRequest constructor" Url="html/ad70d4c4-cb92-d884-13ea-0588e7df1ca5.htm" />
+  <HelpKINode Title="DeveloperGamesRequest.FindGameID method" Url="html/97c98f46-4a9f-097f-973f-13d21355e8eb.htm" />
+  <HelpKINode Title="DeveloperGamesRequest.games field" Url="html/1fbdab48-e065-607e-080f-31836ad89f90.htm" />
+  <HelpKINode Title="DeveloperGamesRequest.requestError field" Url="html/9a89435a-6c63-f249-4554-99a06c21b36c.htm" />
+  <HelpKINode Title="DeveloperGamesRequest.RequestType class">
+    <HelpKINode Title="DeveloperGamesRequest.RequestType Class" Url="html/d64c72a9-fba6-d149-fb65-ce2c9fdf587f.htm" />
+    <HelpKINode Title="constructor" Url="html/2f40843c-ff45-e322-bd26-c34edac7e9c4.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DeveloperGamesRequest.RequestType.ErrorType enumeration" Url="html/1c9c9410-67b0-da1f-a5f3-936935f62cd5.htm" />
+  <HelpKINode Title="DeveloperGamesRequest.RequestType.Game class">
+    <HelpKINode Title="DeveloperGamesRequest.RequestType.Game Class" Url="html/ab60b4a8-82d8-3bf1-0de4-c03a468bfbea.htm" />
+    <HelpKINode Title="constructor" Url="html/8dcb5e48-9d07-845b-802c-7f0435ce8262.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DeveloperGamesRequest.RequestType.Game.createdDate field" Url="html/a7e77cf0-8630-e528-0c0a-414bd6811e7d.htm" />
+  <HelpKINode Title="DeveloperGamesRequest.RequestType.Game.downloadCount field" Url="html/c5dd0560-c6e9-9df7-5350-f67bca9b59f5.htm" />
+  <HelpKINode Title="DeveloperGamesRequest.RequestType.Game.Earning class">
+    <HelpKINode Title="DeveloperGamesRequest.RequestType.Game.Earning Class" Url="html/2c823c82-1d56-ae97-d128-9e9c15340d5a.htm" />
+    <HelpKINode Title="constructor" Url="html/64e31c8a-cc4a-6bba-a0ee-ab9bfed79fb0.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DeveloperGamesRequest.RequestType.Game.Earning.currency field" Url="html/89b8a9e6-dca1-5c74-8332-3fc87c90d95d.htm" />
+  <HelpKINode Title="DeveloperGamesRequest.RequestType.Game.Earning.Earning constructor" Url="html/64e31c8a-cc4a-6bba-a0ee-ab9bfed79fb0.htm" />
+  <HelpKINode Title="DeveloperGamesRequest.RequestType.Game.Earning.purchaseAmountInt field" Url="html/6796c7ab-50e4-77b6-2452-1caed590d3d9.htm" />
+  <HelpKINode Title="DeveloperGamesRequest.RequestType.Game.Earning.purchaseAmountString field" Url="html/b4fed3b7-dbaf-cd18-b05f-50f64e72f43d.htm" />
+  <HelpKINode Title="DeveloperGamesRequest.RequestType.Game.earnings field" Url="html/4e0b5d18-95f4-15d1-cf2b-7ae59e354741.htm" />
+  <HelpKINode Title="DeveloperGamesRequest.RequestType.Game.Game constructor" Url="html/8dcb5e48-9d07-845b-802c-7f0435ce8262.htm" />
+  <HelpKINode Title="DeveloperGamesRequest.RequestType.Game.gameCoverURL field" Url="html/3885a52a-f4df-a800-c35b-e9ce8cc47047.htm" />
+  <HelpKINode Title="DeveloperGamesRequest.RequestType.Game.gameDescription field" Url="html/116eff16-4273-c576-7aa7-0d1c84c4f6c8.htm" />
+  <HelpKINode Title="DeveloperGamesRequest.RequestType.Game.gameID field" Url="html/08de8e90-9c51-95cb-e569-7ed1e40bc06c.htm" />
+  <HelpKINode Title="DeveloperGamesRequest.RequestType.Game.gameTitile field" Url="html/3bc9af70-92d3-8e59-13b0-39009aeb52b7.htm" />
+  <HelpKINode Title="DeveloperGamesRequest.RequestType.Game.gameURL field" Url="html/6c20c8bc-48a4-354e-6785-149ac8a24d2d.htm" />
+  <HelpKINode Title="DeveloperGamesRequest.RequestType.Game.isPublished field" Url="html/a5facb2f-60b1-cdb4-bec6-6fed57bbb123.htm" />
+  <HelpKINode Title="DeveloperGamesRequest.RequestType.Game.minPrice field" Url="html/5fb5184d-d681-64e1-10cf-bf1e953cd972.htm" />
+  <HelpKINode Title="DeveloperGamesRequest.RequestType.Game.publishedDate field" Url="html/2107ec0a-9c82-593d-0e12-7ff04f78f7e1.htm" />
+  <HelpKINode Title="DeveloperGamesRequest.RequestType.Game.purchaseCount field" Url="html/17ffdad1-f08a-2760-0766-a54b627ba80c.htm" />
+  <HelpKINode Title="DeveloperGamesRequest.RequestType.Game.supportsAndroid field" Url="html/c866753e-e18f-88d0-8a84-209701f1f474.htm" />
+  <HelpKINode Title="DeveloperGamesRequest.RequestType.Game.supportsLinux field" Url="html/0e137269-cab5-5b10-b4ef-f947c2c02a9c.htm" />
+  <HelpKINode Title="DeveloperGamesRequest.RequestType.Game.supportsOSX field" Url="html/329182ac-656c-0397-c855-e23ef04a7b20.htm" />
+  <HelpKINode Title="DeveloperGamesRequest.RequestType.Game.supportsWindows field" Url="html/b3fb5214-b80f-87db-2cfa-757ef71882d2.htm" />
+  <HelpKINode Title="DeveloperGamesRequest.RequestType.Game.type field" Url="html/32229f0e-6c44-d59d-77ab-d608e0e49c16.htm" />
+  <HelpKINode Title="DeveloperGamesRequest.RequestType.Game.viewCount field" Url="html/c90deb04-b457-9fdc-24fb-a416a41f5277.htm" />
+  <HelpKINode Title="DeveloperGamesRequest.RequestType.RequestType constructor" Url="html/2f40843c-ff45-e322-bd26-c34edac7e9c4.htm" />
+  <HelpKINode Title="displayName field" Url="html/bbfe3df7-755d-2c30-1783-d2ff790252bc.htm" />
+  <HelpKINode Title="downloadCount field" Url="html/c5dd0560-c6e9-9df7-5350-f67bca9b59f5.htm" />
+  <HelpKINode Title="DownloadKey class">
+    <HelpKINode Title="fields" Url="html/bf2b034b-c833-6869-ff80-0f02730fc8dd.htm" />
+    <HelpKINode Title="methods" Url="html/2dbfea26-6504-1959-381b-c23bd41ddd5b.htm" />
+  </HelpKINode>
+  <HelpKINode Title="downloadKey field">
+    <HelpKINode Title="DownloadKeyRequest.downloadKey Field" Url="html/68bfbb69-f795-dd8d-59a2-44215c82f49a.htm" />
+    <HelpKINode Title="DownloadKeyRequest.RequestType.DownloadKey.downloadKey Field" Url="html/bd87df6e-dfc7-e747-ccbb-3f9c88e644d0.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DownloadKeyRequest class">
+    <HelpKINode Title="DownloadKeyRequest Class" Url="html/1dc49e84-6a43-c998-5a6c-ea62babd13f3.htm" />
+    <HelpKINode Title="constructor" Url="html/598e583f-7d21-16d7-82c4-d75a4427b84b.htm" />
+    <HelpKINode Title="fields" Url="html/66ac532f-a2d1-8eb1-cfb6-e12f15136312.htm" />
+    <HelpKINode Title="methods" Url="html/a6a6d6b6-ba6a-1087-e39c-0542af7f2a8b.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DownloadKeyRequest.downloadKey field" Url="html/68bfbb69-f795-dd8d-59a2-44215c82f49a.htm" />
+  <HelpKINode Title="DownloadKeyRequest.DownloadKeyRequest constructor" Url="html/598e583f-7d21-16d7-82c4-d75a4427b84b.htm" />
+  <HelpKINode Title="DownloadKeyRequest.error field" Url="html/e9536a89-361d-27f2-feca-d4dbfa9e5aa2.htm" />
+  <HelpKINode Title="DownloadKeyRequest.RequestType class">
+    <HelpKINode Title="DownloadKeyRequest.RequestType Class" Url="html/16944a4e-7d35-ac39-9f8e-fce4a9a4ce92.htm" />
+    <HelpKINode Title="constructor" Url="html/2e32adb1-fbcd-f746-bba7-f00ac6fee972.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DownloadKeyRequest.RequestType.DownloadKey class">
+    <HelpKINode Title="DownloadKeyRequest.RequestType.DownloadKey Class" Url="html/499ba73a-ee3a-eaf2-bf5c-89554eaec0b1.htm" />
+    <HelpKINode Title="constructor" Url="html/c9b5cb07-b9c1-f7de-5217-d25e543e3194.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DownloadKeyRequest.RequestType.DownloadKey.dateCreated field" Url="html/e63e049c-5338-64e9-cecf-c46de388e7e2.htm" />
+  <HelpKINode Title="DownloadKeyRequest.RequestType.DownloadKey.DownloadKey constructor" Url="html/c9b5cb07-b9c1-f7de-5217-d25e543e3194.htm" />
+  <HelpKINode Title="DownloadKeyRequest.RequestType.DownloadKey.downloadKey field" Url="html/bd87df6e-dfc7-e747-ccbb-3f9c88e644d0.htm" />
+  <HelpKINode Title="DownloadKeyRequest.RequestType.DownloadKey.downloads field" Url="html/2f67c321-11ec-8f70-75b2-5d04b9feef84.htm" />
+  <HelpKINode Title="DownloadKeyRequest.RequestType.DownloadKey.gameID field" Url="html/26c0892c-a10c-9314-d918-364d3e9d5c91.htm" />
+  <HelpKINode Title="DownloadKeyRequest.RequestType.DownloadKey.keyID field" Url="html/f86e6b2c-b720-0eb4-b8d9-881825a7c695.htm" />
+  <HelpKINode Title="DownloadKeyRequest.RequestType.DownloadKey.owner field" Url="html/dbd56f45-dde2-b3f6-644c-9b009ee456fd.htm" />
+  <HelpKINode Title="DownloadKeyRequest.RequestType.ErrorType enumeration" Url="html/5c4c311d-41db-05ed-b80d-68cd2503c189.htm" />
+  <HelpKINode Title="DownloadKeyRequest.RequestType.RequestType constructor" Url="html/2e32adb1-fbcd-f746-bba7-f00ac6fee972.htm" />
+  <HelpKINode Title="downloads field" Url="html/2f67c321-11ec-8f70-75b2-5d04b9feef84.htm" />
+  <HelpKINode Title="Earning class">
+    <HelpKINode Title="fields" Url="html/25f3bfb8-3f39-83f2-0342-a9fc228fe25c.htm" />
+    <HelpKINode Title="methods" Url="html/8d479ce4-e3ef-d8d6-3a29-27515d8ea59c.htm" />
+  </HelpKINode>
+  <HelpKINode Title="earnings field" Url="html/4e0b5d18-95f4-15d1-cf2b-7ae59e354741.htm" />
+  <HelpKINode Title="error field" Url="html/e9536a89-361d-27f2-feca-d4dbfa9e5aa2.htm" />
+  <HelpKINode Title="FindGameID method" Url="html/97c98f46-4a9f-097f-973f-13d21355e8eb.htm" />
+  <HelpKINode Title="Game class">
+    <HelpKINode Title="fields" Url="html/606695c6-e5c0-035f-260c-6fe693f802f1.htm" />
+    <HelpKINode Title="methods" Url="html/bd251156-99c9-fed8-7416-92fdba95f75a.htm" />
+  </HelpKINode>
+  <HelpKINode Title="gameCoverURL field" Url="html/3885a52a-f4df-a800-c35b-e9ce8cc47047.htm" />
+  <HelpKINode Title="gameDescription field" Url="html/116eff16-4273-c576-7aa7-0d1c84c4f6c8.htm" />
+  <HelpKINode Title="gameID field">
+    <HelpKINode Title="DeveloperGamesRequest.RequestType.Game.gameID Field" Url="html/08de8e90-9c51-95cb-e569-7ed1e40bc06c.htm" />
+    <HelpKINode Title="DownloadKeyRequest.RequestType.DownloadKey.gameID Field" Url="html/26c0892c-a10c-9314-d918-364d3e9d5c91.htm" />
+  </HelpKINode>
+  <HelpKINode Title="games field" Url="html/1fbdab48-e065-607e-080f-31836ad89f90.htm" />
+  <HelpKINode Title="gameTitile field" Url="html/3bc9af70-92d3-8e59-13b0-39009aeb52b7.htm" />
+  <HelpKINode Title="gameURL field" Url="html/6c20c8bc-48a4-354e-6785-149ac8a24d2d.htm" />
+  <HelpKINode Title="GetResposeHTTPAsync method" Url="html/38ab0085-d5eb-3a8c-dd16-cf76286583c9.htm" />
+  <HelpKINode Title="httpClient field" Url="html/2f5324c2-7476-071c-957b-f4f8509ba775.htm" />
+  <HelpKINode Title="InvalidGameID enumeration member" Url="html/5c4c311d-41db-05ed-b80d-68cd2503c189.htm" />
+  <HelpKINode Title="InvalidKey enumeration member">
+    <HelpKINode Title="DeveloperGamesRequest.RequestType.ErrorType Enumeration" Url="html/1c9c9410-67b0-da1f-a5f3-936935f62cd5.htm" />
+    <HelpKINode Title="DownloadKeyRequest.RequestType.ErrorType Enumeration" Url="html/5c4c311d-41db-05ed-b80d-68cd2503c189.htm" />
+    <HelpKINode Title="ItchUserRequest.RequestType.ErrorType Enumeration" Url="html/4398cc95-6286-ff30-8e33-7822b42f34e1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IsApiKeyValid method" Url="html/bfb7e60f-912d-ebc1-fedd-1c00ee22a6a0.htm" />
+  <HelpKINode Title="isDeveloper field" Url="html/32ccd559-afbc-c764-4e5d-5e9aebba9c34.htm" />
+  <HelpKINode Title="IsGameOwned method" Url="html/89c1ce79-c429-b596-cf92-8e36f5a8b3b8.htm" />
+  <HelpKINode Title="isGamer field" Url="html/0cf9a1fc-96dc-5092-22b5-b2f4a2f30dd4.htm" />
+  <HelpKINode Title="isPressUser field" Url="html/93975912-666e-254c-6034-6553584e4895.htm" />
+  <HelpKINode Title="isPublished field" Url="html/a5facb2f-60b1-cdb4-bec6-6fed57bbb123.htm" />
+  <HelpKINode Title="ItchGlobal class">
+    <HelpKINode Title="ItchGlobal Class" Url="html/045e498f-3bd9-49f3-3205-673b6ca22c42.htm" />
+    <HelpKINode Title="constructor" Url="html/34a6fc1b-7d50-cf40-4e0c-392ef9bd9f3d.htm" />
+    <HelpKINode Title="constructor" Url="html/c1b35c04-4426-e484-a13b-a4662f5007d7.htm" />
+    <HelpKINode Title="fields" Url="html/386fbb95-8abc-2dc6-f00b-daf01d2a788c.htm" />
+    <HelpKINode Title="methods" Url="html/c59232e8-f16e-9739-6868-7e68ececf4ba.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ItchGlobal.GetResposeHTTPAsync method" Url="html/38ab0085-d5eb-3a8c-dd16-cf76286583c9.htm" />
+  <HelpKINode Title="ItchGlobal.httpClient field" Url="html/2f5324c2-7476-071c-957b-f4f8509ba775.htm" />
+  <HelpKINode Title="ItchGlobal.ItchGlobal constructor">
+    <HelpKINode Title="ItchGlobal Constructor " Url="html/34a6fc1b-7d50-cf40-4e0c-392ef9bd9f3d.htm" />
+    <HelpKINode Title="ItchGlobal Constructor " Url="html/c1b35c04-4426-e484-a13b-a4662f5007d7.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ItchToolkit namespace" Url="html/82ca4300-3217-0d92-0b3b-f271e2d51bee.htm" />
+  <HelpKINode Title="ItchToolkit.DeveloperGamesRequest class" Url="html/e7cd1a55-ad5a-0ac5-5aef-fbbb9e8cdca2.htm" />
+  <HelpKINode Title="ItchToolkit.DeveloperGamesRequest.RequestType class" Url="html/d64c72a9-fba6-d149-fb65-ce2c9fdf587f.htm" />
+  <HelpKINode Title="ItchToolkit.DeveloperGamesRequest.RequestType.ErrorType enumeration" Url="html/1c9c9410-67b0-da1f-a5f3-936935f62cd5.htm" />
+  <HelpKINode Title="ItchToolkit.DeveloperGamesRequest.RequestType.Game class" Url="html/ab60b4a8-82d8-3bf1-0de4-c03a468bfbea.htm" />
+  <HelpKINode Title="ItchToolkit.DeveloperGamesRequest.RequestType.Game.Earning class" Url="html/2c823c82-1d56-ae97-d128-9e9c15340d5a.htm" />
+  <HelpKINode Title="ItchToolkit.DownloadKeyRequest class" Url="html/1dc49e84-6a43-c998-5a6c-ea62babd13f3.htm" />
+  <HelpKINode Title="ItchToolkit.DownloadKeyRequest.RequestType class" Url="html/16944a4e-7d35-ac39-9f8e-fce4a9a4ce92.htm" />
+  <HelpKINode Title="ItchToolkit.DownloadKeyRequest.RequestType.DownloadKey class" Url="html/499ba73a-ee3a-eaf2-bf5c-89554eaec0b1.htm" />
+  <HelpKINode Title="ItchToolkit.DownloadKeyRequest.RequestType.ErrorType enumeration" Url="html/5c4c311d-41db-05ed-b80d-68cd2503c189.htm" />
+  <HelpKINode Title="ItchToolkit.ItchGlobal class" Url="html/045e498f-3bd9-49f3-3205-673b6ca22c42.htm" />
+  <HelpKINode Title="ItchToolkit.ItchUserRequest class" Url="html/e1408129-32b3-9759-69d1-4623fd17cf78.htm" />
+  <HelpKINode Title="ItchToolkit.ItchUserRequest.RequestType class" Url="html/5188755a-e75c-7bf3-e511-859433ebdeb2.htm" />
+  <HelpKINode Title="ItchToolkit.ItchUserRequest.RequestType.ErrorType enumeration" Url="html/4398cc95-6286-ff30-8e33-7822b42f34e1.htm" />
+  <HelpKINode Title="ItchToolkit.ItchUserRequest.RequestType.User class" Url="html/c506bad7-d123-e6b9-6169-e97ead8c292e.htm" />
+  <HelpKINode Title="ItchToolkit.OAuthRequest class" Url="html/e4974aaf-2686-d866-4aa5-42c4df4db70f.htm" />
+  <HelpKINode Title="ItchUserRequest class">
+    <HelpKINode Title="ItchUserRequest Class" Url="html/e1408129-32b3-9759-69d1-4623fd17cf78.htm" />
+    <HelpKINode Title="constructor" Url="html/8ae0dc1f-5bc1-550b-d086-2f8b31f0441a.htm" />
+    <HelpKINode Title="fields" Url="html/49c2fa2a-906b-b093-6474-34d9808ce276.htm" />
+    <HelpKINode Title="methods" Url="html/1b9c0f70-12ec-5f1b-ec17-b5a12e9f8627.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ItchUserRequest.IsGameOwned method" Url="html/89c1ce79-c429-b596-cf92-8e36f5a8b3b8.htm" />
+  <HelpKINode Title="ItchUserRequest.ItchUserRequest constructor" Url="html/8ae0dc1f-5bc1-550b-d086-2f8b31f0441a.htm" />
+  <HelpKINode Title="ItchUserRequest.requestError field" Url="html/6f6b30bb-be30-ab9d-675c-27b13f5a6130.htm" />
+  <HelpKINode Title="ItchUserRequest.RequestType class">
+    <HelpKINode Title="ItchUserRequest.RequestType Class" Url="html/5188755a-e75c-7bf3-e511-859433ebdeb2.htm" />
+    <HelpKINode Title="constructor" Url="html/c4c8ad84-add0-26bc-96ef-819409af3dcb.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ItchUserRequest.RequestType.ErrorType enumeration" Url="html/4398cc95-6286-ff30-8e33-7822b42f34e1.htm" />
+  <HelpKINode Title="ItchUserRequest.RequestType.RequestType constructor" Url="html/c4c8ad84-add0-26bc-96ef-819409af3dcb.htm" />
+  <HelpKINode Title="ItchUserRequest.RequestType.User class">
+    <HelpKINode Title="ItchUserRequest.RequestType.User Class" Url="html/c506bad7-d123-e6b9-6169-e97ead8c292e.htm" />
+    <HelpKINode Title="constructor" Url="html/18da5bb6-cf5c-ce3a-d75c-1c0342085f3e.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ItchUserRequest.RequestType.User.avatarURL field" Url="html/69201c4c-b20c-e4d1-3450-cae4bac0a9e6.htm" />
+  <HelpKINode Title="ItchUserRequest.RequestType.User.displayName field" Url="html/bbfe3df7-755d-2c30-1783-d2ff790252bc.htm" />
+  <HelpKINode Title="ItchUserRequest.RequestType.User.isDeveloper field" Url="html/32ccd559-afbc-c764-4e5d-5e9aebba9c34.htm" />
+  <HelpKINode Title="ItchUserRequest.RequestType.User.isGamer field" Url="html/0cf9a1fc-96dc-5092-22b5-b2f4a2f30dd4.htm" />
+  <HelpKINode Title="ItchUserRequest.RequestType.User.isPressUser field" Url="html/93975912-666e-254c-6034-6553584e4895.htm" />
+  <HelpKINode Title="ItchUserRequest.RequestType.User.profileURL field" Url="html/377d30bb-d2d6-b19a-facf-f95b08ed242e.htm" />
+  <HelpKINode Title="ItchUserRequest.RequestType.User.User constructor" Url="html/18da5bb6-cf5c-ce3a-d75c-1c0342085f3e.htm" />
+  <HelpKINode Title="ItchUserRequest.RequestType.User.userID field" Url="html/d0b6628d-155c-cbc5-5f5a-3a6faa2086bf.htm" />
+  <HelpKINode Title="ItchUserRequest.RequestType.User.userName field" Url="html/b5335cf5-9811-c13c-adf1-f6245c335755.htm" />
+  <HelpKINode Title="ItchUserRequest.user field" Url="html/f37f8485-2664-c70b-3433-52b9c9117862.htm" />
+  <HelpKINode Title="keyID field" Url="html/f86e6b2c-b720-0eb4-b8d9-881825a7c695.htm" />
+  <HelpKINode Title="minPrice field" Url="html/5fb5184d-d681-64e1-10cf-bf1e953cd972.htm" />
+  <HelpKINode Title="NoDownloadKey enumeration member" Url="html/5c4c311d-41db-05ed-b80d-68cd2503c189.htm" />
+  <HelpKINode Title="NULL enumeration member">
+    <HelpKINode Title="DeveloperGamesRequest.RequestType.ErrorType Enumeration" Url="html/1c9c9410-67b0-da1f-a5f3-936935f62cd5.htm" />
+    <HelpKINode Title="DownloadKeyRequest.RequestType.ErrorType Enumeration" Url="html/5c4c311d-41db-05ed-b80d-68cd2503c189.htm" />
+    <HelpKINode Title="ItchUserRequest.RequestType.ErrorType Enumeration" Url="html/4398cc95-6286-ff30-8e33-7822b42f34e1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="OAuthRequest class">
+    <HelpKINode Title="OAuthRequest Class" Url="html/e4974aaf-2686-d866-4aa5-42c4df4db70f.htm" />
+    <HelpKINode Title="methods" Url="html/84dfe32c-81f7-8a02-54cd-b7fdf5c08eac.htm" />
+  </HelpKINode>
+  <HelpKINode Title="OAuthRequest.IsApiKeyValid method" Url="html/bfb7e60f-912d-ebc1-fedd-1c00ee22a6a0.htm" />
+  <HelpKINode Title="OAuthRequest.RequestOAuthApiKey method" Url="html/7a2c8575-9873-e155-a0a4-bc2998b62943.htm" />
+  <HelpKINode Title="OutOfScopeKey enumeration member" Url="html/1c9c9410-67b0-da1f-a5f3-936935f62cd5.htm" />
+  <HelpKINode Title="owner field" Url="html/dbd56f45-dde2-b3f6-644c-9b009ee456fd.htm" />
+  <HelpKINode Title="profileURL field" Url="html/377d30bb-d2d6-b19a-facf-f95b08ed242e.htm" />
+  <HelpKINode Title="publishedDate field" Url="html/2107ec0a-9c82-593d-0e12-7ff04f78f7e1.htm" />
+  <HelpKINode Title="purchaseAmountInt field" Url="html/6796c7ab-50e4-77b6-2452-1caed590d3d9.htm" />
+  <HelpKINode Title="purchaseAmountString field" Url="html/b4fed3b7-dbaf-cd18-b05f-50f64e72f43d.htm" />
+  <HelpKINode Title="purchaseCount field" Url="html/17ffdad1-f08a-2760-0766-a54b627ba80c.htm" />
+  <HelpKINode Title="requestError field">
+    <HelpKINode Title="DeveloperGamesRequest.requestError Field" Url="html/9a89435a-6c63-f249-4554-99a06c21b36c.htm" />
+    <HelpKINode Title="ItchUserRequest.requestError Field" Url="html/6f6b30bb-be30-ab9d-675c-27b13f5a6130.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RequestOAuthApiKey method" Url="html/7a2c8575-9873-e155-a0a4-bc2998b62943.htm" />
+  <HelpKINode Title="RequestType class">
+    <HelpKINode Title="methods" Url="html/65dffc84-b231-54f5-b02d-41c1550843a0.htm" />
+    <HelpKINode Title="methods" Url="html/58762693-efa6-d008-90a4-d813a910097e.htm" />
+    <HelpKINode Title="methods" Url="html/ba974210-898b-6045-1c67-1730fa620a45.htm" />
+  </HelpKINode>
+  <HelpKINode Title="supportsAndroid field" Url="html/c866753e-e18f-88d0-8a84-209701f1f474.htm" />
+  <HelpKINode Title="supportsLinux field" Url="html/0e137269-cab5-5b10-b4ef-f947c2c02a9c.htm" />
+  <HelpKINode Title="supportsOSX field" Url="html/329182ac-656c-0397-c855-e23ef04a7b20.htm" />
+  <HelpKINode Title="supportsWindows field" Url="html/b3fb5214-b80f-87db-2cfa-757ef71882d2.htm" />
+  <HelpKINode Title="type field" Url="html/32229f0e-6c44-d59d-77ab-d608e0e49c16.htm" />
+  <HelpKINode Title="User class">
+    <HelpKINode Title="fields" Url="html/a005df1c-d06b-ce39-bbd6-00136d37f986.htm" />
+    <HelpKINode Title="methods" Url="html/ac50d24e-78ac-6856-3854-c3b7091433e2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="user field" Url="html/f37f8485-2664-c70b-3433-52b9c9117862.htm" />
+  <HelpKINode Title="userID field" Url="html/d0b6628d-155c-cbc5-5f5a-3a6faa2086bf.htm" />
+  <HelpKINode Title="userName field" Url="html/b5335cf5-9811-c13c-adf1-f6245c335755.htm" />
+  <HelpKINode Title="viewCount field" Url="html/c90deb04-b457-9fdc-24fb-a416a41f5277.htm" />
+</HelpKI>
