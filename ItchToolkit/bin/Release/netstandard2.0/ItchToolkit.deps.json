@@ -55,7 +55,7 @@
     "System.Json/4.5.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-YIbZuXh5pInsAoI/MzLtAX+6XEqSLaO5NcE3lkM7tcY/Qb9xudamYe1/cg7KMKBRQyk1SFVD2iA2SCZtS7fs9w==",
+      "sha512": "sha512-qa/n31qUQ1qEACgCCHVU20BEvkGQtIlOANSjn9TjmRnxDl/KSYrRzTS83iOuCSr/37BfueFSXHobhZhNUksqVQ==",
       "path": "system.json/4.5.0",
       "hashPath": "system.json.4.5.0.nupkg.sha512"
     }

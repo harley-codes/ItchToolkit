@@ -1,26 +1,26 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <HelpTOC>
 
-  <HelpTOCNode Id="60fa0270-6515-4b39-9c86-d303a4499979" Title="ItchToolkit" Url="html/82ca4300-3217-0d92-0b3b-f271e2d51bee.htm">
-    <HelpTOCNode Id="4a8f64e2-c554-4872-b878-3373b8ca1125" Title="DeveloperGamesRequest Class" Url="html/e7cd1a55-ad5a-0ac5-5aef-fbbb9e8cdca2.htm">
+  <HelpTOCNode Id="084babf0-b24e-40aa-b592-6e9dd8c9de38" Title="ItchToolkit" Url="html/82ca4300-3217-0d92-0b3b-f271e2d51bee.htm">
+    <HelpTOCNode Id="5b0651bd-29dd-445b-8704-05a693513244" Title="DeveloperGamesRequest Class" Url="html/e7cd1a55-ad5a-0ac5-5aef-fbbb9e8cdca2.htm">
       <HelpTOCNode Title="DeveloperGamesRequest Constructor " Url="html/ad70d4c4-cb92-d884-13ea-0588e7df1ca5.htm" />
-      <HelpTOCNode Id="476c5939-0242-4c40-af8f-fde50a10b9a0" Title="DeveloperGamesRequest Methods" Url="html/0b1e2b29-2d28-6c50-e2e4-1090a57323a6.htm">
+      <HelpTOCNode Id="77fcc61b-ab2a-46f3-9298-5a698bd6b642" Title="DeveloperGamesRequest Methods" Url="html/0b1e2b29-2d28-6c50-e2e4-1090a57323a6.htm">
         <HelpTOCNode Title="FindGameID Method " Url="html/97c98f46-4a9f-097f-973f-13d21355e8eb.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="1b2227bf-7e84-4f32-8858-25daaea66448" Title="DeveloperGamesRequest Fields" Url="html/1e13a873-6df4-8100-2a6c-763c773464f4.htm">
+      <HelpTOCNode Id="208ffc36-6913-4bdf-80bc-042bbde1cbfd" Title="DeveloperGamesRequest Fields" Url="html/1e13a873-6df4-8100-2a6c-763c773464f4.htm">
         <HelpTOCNode Title="games Field" Url="html/1fbdab48-e065-607e-080f-31836ad89f90.htm" />
         <HelpTOCNode Title="requestError Field" Url="html/9a89435a-6c63-f249-4554-99a06c21b36c.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="e4b61a33-8109-4072-ab1a-a708221c1a80" Title="DeveloperGamesRequest.RequestType Class" Url="html/d64c72a9-fba6-d149-fb65-ce2c9fdf587f.htm">
+    <HelpTOCNode Id="b58bf84a-4af5-4415-93e8-8ba500de1854" Title="DeveloperGamesRequest.RequestType Class" Url="html/d64c72a9-fba6-d149-fb65-ce2c9fdf587f.htm">
       <HelpTOCNode Title="DeveloperGamesRequest.RequestType Constructor " Url="html/2f40843c-ff45-e322-bd26-c34edac7e9c4.htm" />
       <HelpTOCNode Title="RequestType Methods" Url="html/65dffc84-b231-54f5-b02d-41c1550843a0.htm" />
     </HelpTOCNode>
     <HelpTOCNode Title="DeveloperGamesRequest.RequestType.ErrorType Enumeration" Url="html/1c9c9410-67b0-da1f-a5f3-936935f62cd5.htm" />
-    <HelpTOCNode Id="f37fe49c-97e8-4ad8-8fb5-2e6bd9bcd4a1" Title="DeveloperGamesRequest.RequestType.Game Class" Url="html/ab60b4a8-82d8-3bf1-0de4-c03a468bfbea.htm">
+    <HelpTOCNode Id="82227611-44f3-4676-baf9-19b2f29e6bcf" Title="DeveloperGamesRequest.RequestType.Game Class" Url="html/ab60b4a8-82d8-3bf1-0de4-c03a468bfbea.htm">
       <HelpTOCNode Title="DeveloperGamesRequest.RequestType.Game Constructor " Url="html/8dcb5e48-9d07-845b-802c-7f0435ce8262.htm" />
       <HelpTOCNode Title="Game Methods" Url="html/bd251156-99c9-fed8-7416-92fdba95f75a.htm" />
-      <HelpTOCNode Id="d6a60f09-aee9-40f6-8df9-60f44e45f52c" Title="Game Fields" Url="html/606695c6-e5c0-035f-260c-6fe693f802f1.htm">
+      <HelpTOCNode Id="868d5283-5f90-4938-aba4-29de6cdd67be" Title="Game Fields" Url="html/606695c6-e5c0-035f-260c-6fe693f802f1.htm">
         <HelpTOCNode Title="createdDate Field" Url="html/a7e77cf0-8630-e528-0c0a-414bd6811e7d.htm" />
         <HelpTOCNode Title="downloadCount Field" Url="html/c5dd0560-c6e9-9df7-5350-f67bca9b59f5.htm" />
         <HelpTOCNode Title="earnings Field" Url="html/4e0b5d18-95f4-15d1-cf2b-7ae59e354741.htm" />
@@ -41,31 +41,31 @@
         <HelpTOCNode Title="viewCount Field" Url="html/c90deb04-b457-9fdc-24fb-a416a41f5277.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="f0503e6b-038a-4b9a-9787-44b953b767da" Title="DeveloperGamesRequest.RequestType.Game.Earning Class" Url="html/2c823c82-1d56-ae97-d128-9e9c15340d5a.htm">
+    <HelpTOCNode Id="221e7e36-8b7e-4acc-9680-c4f8a1babaab" Title="DeveloperGamesRequest.RequestType.Game.Earning Class" Url="html/2c823c82-1d56-ae97-d128-9e9c15340d5a.htm">
       <HelpTOCNode Title="DeveloperGamesRequest.RequestType.Game.Earning Constructor " Url="html/64e31c8a-cc4a-6bba-a0ee-ab9bfed79fb0.htm" />
       <HelpTOCNode Title="Earning Methods" Url="html/8d479ce4-e3ef-d8d6-3a29-27515d8ea59c.htm" />
-      <HelpTOCNode Id="1e5231ab-3618-487e-99a0-2dd7f66fe6d9" Title="Earning Fields" Url="html/25f3bfb8-3f39-83f2-0342-a9fc228fe25c.htm">
+      <HelpTOCNode Id="c34c806a-8f21-43ea-8d99-1be630e41d3e" Title="Earning Fields" Url="html/25f3bfb8-3f39-83f2-0342-a9fc228fe25c.htm">
         <HelpTOCNode Title="currency Field" Url="html/89b8a9e6-dca1-5c74-8332-3fc87c90d95d.htm" />
         <HelpTOCNode Title="purchaseAmountInt Field" Url="html/6796c7ab-50e4-77b6-2452-1caed590d3d9.htm" />
         <HelpTOCNode Title="purchaseAmountString Field" Url="html/b4fed3b7-dbaf-cd18-b05f-50f64e72f43d.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="eeb4a61e-ccf1-422a-889d-fbdd890cf3cd" Title="DownloadKeyRequest Class" Url="html/1dc49e84-6a43-c998-5a6c-ea62babd13f3.htm">
+    <HelpTOCNode Id="07124a7c-df16-414a-a89a-b8bfc88d80ea" Title="DownloadKeyRequest Class" Url="html/1dc49e84-6a43-c998-5a6c-ea62babd13f3.htm">
       <HelpTOCNode Title="DownloadKeyRequest Constructor " Url="html/598e583f-7d21-16d7-82c4-d75a4427b84b.htm" />
       <HelpTOCNode Title="DownloadKeyRequest Methods" Url="html/a6a6d6b6-ba6a-1087-e39c-0542af7f2a8b.htm" />
-      <HelpTOCNode Id="b6581b81-a238-4654-b34d-338884a390a3" Title="DownloadKeyRequest Fields" Url="html/66ac532f-a2d1-8eb1-cfb6-e12f15136312.htm">
+      <HelpTOCNode Id="92222e7c-ec77-4213-841e-56b589f35218" Title="DownloadKeyRequest Fields" Url="html/66ac532f-a2d1-8eb1-cfb6-e12f15136312.htm">
         <HelpTOCNode Title="downloadKey Field" Url="html/68bfbb69-f795-dd8d-59a2-44215c82f49a.htm" />
         <HelpTOCNode Title="error Field" Url="html/e9536a89-361d-27f2-feca-d4dbfa9e5aa2.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="79a4ac75-b3fa-4dd6-bafb-1354a136014f" Title="DownloadKeyRequest.RequestType Class" Url="html/16944a4e-7d35-ac39-9f8e-fce4a9a4ce92.htm">
+    <HelpTOCNode Id="8cf0a903-cce7-42aa-8ea5-b9d20b268706" Title="DownloadKeyRequest.RequestType Class" Url="html/16944a4e-7d35-ac39-9f8e-fce4a9a4ce92.htm">
       <HelpTOCNode Title="DownloadKeyRequest.RequestType Constructor " Url="html/2e32adb1-fbcd-f746-bba7-f00ac6fee972.htm" />
       <HelpTOCNode Title="RequestType Methods" Url="html/58762693-efa6-d008-90a4-d813a910097e.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="b432ce64-09ce-4530-bbbb-646dfb52b885" Title="DownloadKeyRequest.RequestType.DownloadKey Class" Url="html/499ba73a-ee3a-eaf2-bf5c-89554eaec0b1.htm">
+    <HelpTOCNode Id="7b9bfbce-946d-4fad-a873-9231d988dea4" Title="DownloadKeyRequest.RequestType.DownloadKey Class" Url="html/499ba73a-ee3a-eaf2-bf5c-89554eaec0b1.htm">
       <HelpTOCNode Title="DownloadKeyRequest.RequestType.DownloadKey Constructor " Url="html/c9b5cb07-b9c1-f7de-5217-d25e543e3194.htm" />
       <HelpTOCNode Title="DownloadKey Methods" Url="html/2dbfea26-6504-1959-381b-c23bd41ddd5b.htm" />
-      <HelpTOCNode Id="e6add229-ef4f-4fb6-8f1d-287f2819bc55" Title="DownloadKey Fields" Url="html/bf2b034b-c833-6869-ff80-0f02730fc8dd.htm">
+      <HelpTOCNode Id="8cead572-470e-4156-a007-5b2cb7eadd7d" Title="DownloadKey Fields" Url="html/bf2b034b-c833-6869-ff80-0f02730fc8dd.htm">
         <HelpTOCNode Title="dateCreated Field" Url="html/e63e049c-5338-64e9-cecf-c46de388e7e2.htm" />
         <HelpTOCNode Title="downloadKey Field" Url="html/bd87df6e-dfc7-e747-ccbb-3f9c88e644d0.htm" />
         <HelpTOCNode Title="downloads Field" Url="html/2f67c321-11ec-8f70-75b2-5d04b9feef84.htm" />
@@ -75,35 +75,37 @@
       </HelpTOCNode>
     </HelpTOCNode>
     <HelpTOCNode Title="DownloadKeyRequest.RequestType.ErrorType Enumeration" Url="html/5c4c311d-41db-05ed-b80d-68cd2503c189.htm" />
-    <HelpTOCNode Id="34c4a3d4-bf7d-4f42-a0b9-277a346b05ae" Title="ItchGlobal Class" Url="html/045e498f-3bd9-49f3-3205-673b6ca22c42.htm">
+    <HelpTOCNode Id="47223af5-a41f-4052-87b4-0fcd614acf50" Title="ItchGlobal Class" Url="html/045e498f-3bd9-49f3-3205-673b6ca22c42.htm">
       <HelpTOCNode Title="ItchGlobal Constructor " Url="html/34a6fc1b-7d50-cf40-4e0c-392ef9bd9f3d.htm" />
       <HelpTOCNode Title="ItchGlobal Constructor " Url="html/c1b35c04-4426-e484-a13b-a4662f5007d7.htm" />
-      <HelpTOCNode Id="22307bbf-d181-4281-8491-9634dae681e2" Title="ItchGlobal Methods" Url="html/c59232e8-f16e-9739-6868-7e68ececf4ba.htm">
+      <HelpTOCNode Id="c175cbc9-e95c-4127-93f6-aad74b2e5f98" Title="ItchGlobal Methods" Url="html/c59232e8-f16e-9739-6868-7e68ececf4ba.htm">
         <HelpTOCNode Title="GetResposeHTTPAsync Method " Url="html/38ab0085-d5eb-3a8c-dd16-cf76286583c9.htm" />
+        <HelpTOCNode Title="GetResposeHTTPAsyncAsByteArray Method " Url="html/9a0ee7bc-3656-3fa8-ecdc-f8a4babdd464.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="ab0b1793-fd0b-4551-91af-79204f5eac3b" Title="ItchGlobal Fields" Url="html/386fbb95-8abc-2dc6-f00b-daf01d2a788c.htm">
+      <HelpTOCNode Id="95da9095-d75b-4f09-9e27-eab1a55077d7" Title="ItchGlobal Fields" Url="html/386fbb95-8abc-2dc6-f00b-daf01d2a788c.htm">
         <HelpTOCNode Title="httpClient Field" Url="html/2f5324c2-7476-071c-957b-f4f8509ba775.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="c13cfb40-dd3c-4f06-b322-293d377eb9dd" Title="ItchUserRequest Class" Url="html/e1408129-32b3-9759-69d1-4623fd17cf78.htm">
+    <HelpTOCNode Id="efcb051a-1c5d-457b-8b40-3260c60f4070" Title="ItchUserRequest Class" Url="html/e1408129-32b3-9759-69d1-4623fd17cf78.htm">
       <HelpTOCNode Title="ItchUserRequest Constructor " Url="html/8ae0dc1f-5bc1-550b-d086-2f8b31f0441a.htm" />
-      <HelpTOCNode Id="5606d13b-49e9-4deb-8a66-4173ad99ae7e" Title="ItchUserRequest Methods" Url="html/1b9c0f70-12ec-5f1b-ec17-b5a12e9f8627.htm">
+      <HelpTOCNode Id="6b90b958-8890-4f06-8739-ab9e3fef5a0d" Title="ItchUserRequest Methods" Url="html/1b9c0f70-12ec-5f1b-ec17-b5a12e9f8627.htm">
+        <HelpTOCNode Title="GetAvatarByteArray Method " Url="html/cb159f3f-5a8b-aa57-5dc2-089d9da11207.htm" />
         <HelpTOCNode Title="IsGameOwned Method " Url="html/89c1ce79-c429-b596-cf92-8e36f5a8b3b8.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="56c73b28-e788-4e88-b23d-3a814afb38f1" Title="ItchUserRequest Fields" Url="html/49c2fa2a-906b-b093-6474-34d9808ce276.htm">
+      <HelpTOCNode Id="ff6b36a4-0bb6-4d4f-a38a-99529c1416e6" Title="ItchUserRequest Fields" Url="html/49c2fa2a-906b-b093-6474-34d9808ce276.htm">
         <HelpTOCNode Title="requestError Field" Url="html/6f6b30bb-be30-ab9d-675c-27b13f5a6130.htm" />
         <HelpTOCNode Title="user Field" Url="html/f37f8485-2664-c70b-3433-52b9c9117862.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="a6bb5c1a-7c0a-4f8e-8f49-01a03e68fdac" Title="ItchUserRequest.RequestType Class" Url="html/5188755a-e75c-7bf3-e511-859433ebdeb2.htm">
+    <HelpTOCNode Id="422dfcf8-4b25-4bd6-85e5-9c8997324680" Title="ItchUserRequest.RequestType Class" Url="html/5188755a-e75c-7bf3-e511-859433ebdeb2.htm">
       <HelpTOCNode Title="ItchUserRequest.RequestType Constructor " Url="html/c4c8ad84-add0-26bc-96ef-819409af3dcb.htm" />
       <HelpTOCNode Title="RequestType Methods" Url="html/ba974210-898b-6045-1c67-1730fa620a45.htm" />
     </HelpTOCNode>
     <HelpTOCNode Title="ItchUserRequest.RequestType.ErrorType Enumeration" Url="html/4398cc95-6286-ff30-8e33-7822b42f34e1.htm" />
-    <HelpTOCNode Id="d04442f7-ee22-451a-a0e7-54ae1f1fbd6f" Title="ItchUserRequest.RequestType.User Class" Url="html/c506bad7-d123-e6b9-6169-e97ead8c292e.htm">
+    <HelpTOCNode Id="db0097d1-d279-4ee7-9ddb-98518494b7ac" Title="ItchUserRequest.RequestType.User Class" Url="html/c506bad7-d123-e6b9-6169-e97ead8c292e.htm">
       <HelpTOCNode Title="ItchUserRequest.RequestType.User Constructor " Url="html/18da5bb6-cf5c-ce3a-d75c-1c0342085f3e.htm" />
       <HelpTOCNode Title="User Methods" Url="html/ac50d24e-78ac-6856-3854-c3b7091433e2.htm" />
-      <HelpTOCNode Id="811668af-4606-45ac-96b3-c05b2737fbd7" Title="User Fields" Url="html/a005df1c-d06b-ce39-bbd6-00136d37f986.htm">
+      <HelpTOCNode Id="bcc66c8c-ff7b-4b39-8f08-89dd0dc688bf" Title="User Fields" Url="html/a005df1c-d06b-ce39-bbd6-00136d37f986.htm">
         <HelpTOCNode Title="avatarURL Field" Url="html/69201c4c-b20c-e4d1-3450-cae4bac0a9e6.htm" />
         <HelpTOCNode Title="displayName Field" Url="html/bbfe3df7-755d-2c30-1783-d2ff790252bc.htm" />
         <HelpTOCNode Title="isDeveloper Field" Url="html/32ccd559-afbc-c764-4e5d-5e9aebba9c34.htm" />
@@ -114,8 +116,8 @@
         <HelpTOCNode Title="userName Field" Url="html/b5335cf5-9811-c13c-adf1-f6245c335755.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="1956627f-3e50-4e5b-9a40-5712a5374431" Title="OAuthRequest Class" Url="html/e4974aaf-2686-d866-4aa5-42c4df4db70f.htm">
-      <HelpTOCNode Id="258e8e57-eff0-4f15-abcf-9d732c40f36e" Title="OAuthRequest Methods" Url="html/84dfe32c-81f7-8a02-54cd-b7fdf5c08eac.htm">
+    <HelpTOCNode Id="10de8208-149e-41b4-a1ba-230c4891ad70" Title="OAuthRequest Class" Url="html/e4974aaf-2686-d866-4aa5-42c4df4db70f.htm">
+      <HelpTOCNode Id="53469c2e-a9dd-49d0-a550-7bcbbf13413c" Title="OAuthRequest Methods" Url="html/84dfe32c-81f7-8a02-54cd-b7fdf5c08eac.htm">
         <HelpTOCNode Title="IsApiKeyValid Method " Url="html/bfb7e60f-912d-ebc1-fedd-1c00ee22a6a0.htm" />
         <HelpTOCNode Title="RequestOAuthApiKey Method " Url="html/7a2c8575-9873-e155-a0a4-bc2998b62943.htm" />
       </HelpTOCNode>

@@ -114,5 +114,21 @@
             DownloadKeyRequest downloadKeyRequest = new DownloadKeyRequest(yourKey, gameID, user.userID.ToString());
             return (downloadKeyRequest.error == DownloadKeyRequest.RequestType.ErrorType.NULL);
         }
+
+        /// <summary>
+        /// If the user has an avatar, the image will be returned in the form of a byte array.
+        /// <para></para>
+        /// This can then passed to various Engines/IDE's to create an image in their format.
+        /// <para></para>
+        /// Unity Example: Texture2D.LoadImage(ItchToolkit.ItchUserRequest.GetAvatarByteArray("URL"));
+        /// </summary>
+        /// <returns></returns>
+        public byte[] GetAvatarByteArray()
+        {
+            if (!string.IsNullOrEmpty(user.avatarURL))
+                return ItchGlobal.GetResposeHTTPAsyncAsByteArray(user.avatarURL).GetAwaiter().GetResult();
+            else
+                return null;
+        }
     }
 }

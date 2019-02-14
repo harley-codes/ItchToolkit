@@ -113,7 +113,9 @@
   <HelpKINode Title="games field" Url="html/1fbdab48-e065-607e-080f-31836ad89f90.htm" />
   <HelpKINode Title="gameTitile field" Url="html/3bc9af70-92d3-8e59-13b0-39009aeb52b7.htm" />
   <HelpKINode Title="gameURL field" Url="html/6c20c8bc-48a4-354e-6785-149ac8a24d2d.htm" />
+  <HelpKINode Title="GetAvatarByteArray method" Url="html/cb159f3f-5a8b-aa57-5dc2-089d9da11207.htm" />
   <HelpKINode Title="GetResposeHTTPAsync method" Url="html/38ab0085-d5eb-3a8c-dd16-cf76286583c9.htm" />
+  <HelpKINode Title="GetResposeHTTPAsyncAsByteArray method" Url="html/9a0ee7bc-3656-3fa8-ecdc-f8a4babdd464.htm" />
   <HelpKINode Title="httpClient field" Url="html/2f5324c2-7476-071c-957b-f4f8509ba775.htm" />
   <HelpKINode Title="InvalidGameID enumeration member" Url="html/5c4c311d-41db-05ed-b80d-68cd2503c189.htm" />
   <HelpKINode Title="InvalidKey enumeration member">
@@ -129,16 +131,17 @@
   <HelpKINode Title="isPublished field" Url="html/a5facb2f-60b1-cdb4-bec6-6fed57bbb123.htm" />
   <HelpKINode Title="ItchGlobal class">
     <HelpKINode Title="ItchGlobal Class" Url="html/045e498f-3bd9-49f3-3205-673b6ca22c42.htm" />
-    <HelpKINode Title="constructor" Url="html/34a6fc1b-7d50-cf40-4e0c-392ef9bd9f3d.htm" />
     <HelpKINode Title="constructor" Url="html/c1b35c04-4426-e484-a13b-a4662f5007d7.htm" />
+    <HelpKINode Title="constructor" Url="html/34a6fc1b-7d50-cf40-4e0c-392ef9bd9f3d.htm" />
     <HelpKINode Title="fields" Url="html/386fbb95-8abc-2dc6-f00b-daf01d2a788c.htm" />
     <HelpKINode Title="methods" Url="html/c59232e8-f16e-9739-6868-7e68ececf4ba.htm" />
   </HelpKINode>
   <HelpKINode Title="ItchGlobal.GetResposeHTTPAsync method" Url="html/38ab0085-d5eb-3a8c-dd16-cf76286583c9.htm" />
+  <HelpKINode Title="ItchGlobal.GetResposeHTTPAsyncAsByteArray method" Url="html/9a0ee7bc-3656-3fa8-ecdc-f8a4babdd464.htm" />
   <HelpKINode Title="ItchGlobal.httpClient field" Url="html/2f5324c2-7476-071c-957b-f4f8509ba775.htm" />
   <HelpKINode Title="ItchGlobal.ItchGlobal constructor">
-    <HelpKINode Title="ItchGlobal Constructor " Url="html/34a6fc1b-7d50-cf40-4e0c-392ef9bd9f3d.htm" />
     <HelpKINode Title="ItchGlobal Constructor " Url="html/c1b35c04-4426-e484-a13b-a4662f5007d7.htm" />
+    <HelpKINode Title="ItchGlobal Constructor " Url="html/34a6fc1b-7d50-cf40-4e0c-392ef9bd9f3d.htm" />
   </HelpKINode>
   <HelpKINode Title="ItchToolkit namespace" Url="html/82ca4300-3217-0d92-0b3b-f271e2d51bee.htm" />
   <HelpKINode Title="ItchToolkit.DeveloperGamesRequest class" Url="html/e7cd1a55-ad5a-0ac5-5aef-fbbb9e8cdca2.htm" />
@@ -162,6 +165,7 @@
     <HelpKINode Title="fields" Url="html/49c2fa2a-906b-b093-6474-34d9808ce276.htm" />
     <HelpKINode Title="methods" Url="html/1b9c0f70-12ec-5f1b-ec17-b5a12e9f8627.htm" />
   </HelpKINode>
+  <HelpKINode Title="ItchUserRequest.GetAvatarByteArray method" Url="html/cb159f3f-5a8b-aa57-5dc2-089d9da11207.htm" />
   <HelpKINode Title="ItchUserRequest.IsGameOwned method" Url="html/89c1ce79-c429-b596-cf92-8e36f5a8b3b8.htm" />
   <HelpKINode Title="ItchUserRequest.ItchUserRequest constructor" Url="html/8ae0dc1f-5bc1-550b-d086-2f8b31f0441a.htm" />
   <HelpKINode Title="ItchUserRequest.requestError field" Url="html/6f6b30bb-be30-ab9d-675c-27b13f5a6130.htm" />
@@ -213,8 +217,8 @@
   <HelpKINode Title="RequestOAuthApiKey method" Url="html/7a2c8575-9873-e155-a0a4-bc2998b62943.htm" />
   <HelpKINode Title="RequestType class">
     <HelpKINode Title="methods" Url="html/65dffc84-b231-54f5-b02d-41c1550843a0.htm" />
-    <HelpKINode Title="methods" Url="html/58762693-efa6-d008-90a4-d813a910097e.htm" />
     <HelpKINode Title="methods" Url="html/ba974210-898b-6045-1c67-1730fa620a45.htm" />
+    <HelpKINode Title="methods" Url="html/58762693-efa6-d008-90a4-d813a910097e.htm" />
   </HelpKINode>
   <HelpKINode Title="supportsAndroid field" Url="html/c866753e-e18f-88d0-8a84-209701f1f474.htm" />
   <HelpKINode Title="supportsLinux field" Url="html/0e137269-cab5-5b10-b4ef-f947c2c02a9c.htm" />

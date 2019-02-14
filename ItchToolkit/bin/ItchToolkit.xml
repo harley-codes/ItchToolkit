@@ -381,6 +381,16 @@
             <param name="gameID"></param>
             <returns></returns>
         </member>
+        <member name="M:ItchToolkit.ItchUserRequest.GetAvatarByteArray">
+            <summary>
+            If the user has an avatar, the image will be returned in the form of a byte array.
+            <para></para>
+            This can then passed to various Engines/IDE's to create an image in their format.
+            <para></para>
+            Unity Example: Texture2D.LoadImage(ItchToolkit.ItchUserRequest.GetAvatarByteArray("URL"));
+            </summary>
+            <returns></returns>
+        </member>
         <member name="T:ItchToolkit.OAuthRequest">
             <summary>
             Manage OAuth Requests and Validation.
