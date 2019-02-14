@@ -19,7 +19,8 @@
     <Language>en-US</Language>
     <DocumentationSources>
       <DocumentationSource sourceFile="..\bin\Release\netstandard2.0\ItchToolkit.dll" />
-<DocumentationSource sourceFile="..\bin\Release\netstandard2.0\ItchToolkit.xml" /></DocumentationSources>
+      <DocumentationSource sourceFile="..\bin\Release\netstandard2.0\ItchToolkit.xml" />
+    </DocumentationSources>
     <HelpFileFormat>HtmlHelp1, MSHelpViewer, Website</HelpFileFormat>
     <SyntaxFilters>C#</SyntaxFilters>
     <PresentationStyle>VS2013</PresentationStyle>
@@ -41,7 +42,7 @@
     <IncludeFavorites>False</IncludeFavorites>
     <WebsiteSdkLinkType>None</WebsiteSdkLinkType>
     <AppendMarkdownFileExtensionsToUrls>False</AppendMarkdownFileExtensionsToUrls>
-    <VisibleItems>InheritedMembers, InheritedFrameworkMembers, InheritedFrameworkInternalMembers, InheritedFrameworkPrivateMembers, Internals, Privates, PrivateFields, Protected, ProtectedInternalAsProtected, NonBrowsable</VisibleItems>
+    <VisibleItems>InheritedMembers, InheritedFrameworkMembers, Privates, PrivateFields, Protected, ProtectedInternalAsProtected, NonBrowsable</VisibleItems>
     <MissingTags>Summary, Parameter, Returns, AutoDocumentCtors, TypeParameter, AutoDocumentDispose</MissingTags>
     <HeaderText>&amp;lt%3bb&amp;gt%3bA tool used to verify game purchases from Itch, without the need of the Itch App itself.&amp;lt%3b/b&amp;gt%3b
 &amp;lt%3bbr /&amp;gt%3b

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder and Tools" version="2018.12.10.0" projectFile="C:\Github\ItchToolkit\ItchToolkit\API\ItchToolkit API.shfbproj" started="14/02/2019 4:32:41 PM">
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2018.12.10.0" projectFile="C:\Github\ItchToolkit\ItchToolkit\API\ItchToolkit API.shfbproj" started="14/02/2019 4:43:49 PM">
 <buildStep step="Initializing">
 Finding tools...
 The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\&#39;
@@ -30,16 +30,16 @@ Copying XML comments files
 <buildStep step="GenerateSharedContent">
 Generating shared content files (en-US, English (United States))...
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
-</plugIn>    Last step completed in 00:00:00.0098
+</plugIn>    Last step completed in 00:00:00.0070
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
-    Last step completed in 00:00:00.0101
+    Last step completed in 00:00:00.0050
 </buildStep>
 <buildStep step="GenerateReflectionInfo">
 Generating reflection information...
 [C:\Program Files (x86)\MSBuild\14.0\bin\amd64\MSBuild.exe - GenerateRefInfo.proj]
-Build started 14/02/2019 4:32:43 PM.
+Build started 14/02/2019 4:43:50 PM.
 Project &quot;C:\Github\ItchToolkit\ItchToolkit\API\Help\Working\GenerateRefInfo.proj&quot; on node 1 (default targets).
 PrepareForBuild:
   Creating directory &quot;obj\Debug\&quot;.
@@ -49,7 +49,7 @@ GenerateRefInfo:
   Portions Copyright &#184; 2006-2018, Eric Woodruff, All Rights Reserved.
   No source code context base path specified.  Source context information is unavailable.
   Loaded 1 assemblies for reflection and 1 dependency assemblies.
-  Wrote information on 1 namespaces, 15 types, and 73 members
+  Wrote information on 1 namespaces, 14 types, and 68 members
   Copying file from &quot;reflection.org&quot; to &quot;reflection.all&quot;.
   XslTransform (v2018.12.10.0)
   Copyright &#184; 2006-2018, Microsoft Corporation, All Rights Reserved.
@@ -59,13 +59,13 @@ Done Building Project &quot;C:\Github\ItchToolkit\ItchToolkit\API\Help\Working\G
 
 Build succeeded.
 
-Time Elapsed 00:00:02.73
-    Last step completed in 00:00:03.3000
+Time Elapsed 00:00:02.87
+    Last step completed in 00:00:03.3640
 </buildStep>
 <buildStep step="TransformReflectionInfo">
 Transforming reflection output...
 [C:\Program Files (x86)\MSBuild\14.0\bin\amd64\MSBuild.exe - TransformManifest.proj]
-Build started 14/02/2019 4:32:46 PM.
+Build started 14/02/2019 4:43:54 PM.
 Project &quot;C:\Github\ItchToolkit\ItchToolkit\API\Help\Working\TransformManifest.proj&quot; on node 1 (default targets).
 TransformManifest:
   XslTransform (v2018.12.10.0)
@@ -85,17 +85,17 @@ Done Building Project &quot;C:\Github\ItchToolkit\ItchToolkit\API\Help\Working\T
 
 Build succeeded.
 
-Time Elapsed 00:00:01.10
-    Last step completed in 00:00:01.5271
+Time Elapsed 00:00:01.04
+    Last step completed in 00:00:01.4492
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
-    Last step completed in 00:00:00.0190
+    Last step completed in 00:00:00.0080
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
 No additional content to copy
-    Last step completed in 00:00:00.0020
+    Last step completed in 00:00:00.0000
 </buildStep>
 <buildStep step="MergeTablesOfContents">
 Merging conceptual and additional tables of contents...
@@ -104,7 +104,7 @@ Merging conceptual and additional tables of contents...
 <buildStep step="GenerateIntermediateTableOfContents">
 Generating intermediate table of contents file...
 [C:\Program Files (x86)\MSBuild\14.0\bin\amd64\MSBuild.exe - GenerateIntermediateTOC.proj]
-Build started 14/02/2019 4:32:48 PM.
+Build started 14/02/2019 4:43:55 PM.
 Project &quot;C:\Github\ItchToolkit\ItchToolkit\API\Help\Working\GenerateIntermediateTOC.proj&quot; on node 1 (default targets).
 GenerateIntermediateTOC:
   XslTransform (v2018.12.10.0)
@@ -115,26 +115,26 @@ Done Building Project &quot;C:\Github\ItchToolkit\ItchToolkit\API\Help\Working\G
 
 Build succeeded.
 
-Time Elapsed 00:00:00.60
+Time Elapsed 00:00:00.62
 Generating conceptual content intermediate TOC file...
-    Last step completed in 00:00:01.0210
+    Last step completed in 00:00:01.0270
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
     sandcastle.config
-    Last step completed in 00:00:00.1298
+    Last step completed in 00:00:00.1120
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
 C:\Github\ItchToolkit\ItchToolkit\API\Help\Working\sandcastle.config
   Updating reference topic configurations.
   No conceptual content.  Removing conceptual content components.
-    Last step completed in 00:00:00.0050
+    Last step completed in 00:00:00.0020
 </buildStep>
 <buildStep step="BuildTopics">
 Building help topics...
 [C:\Program Files (x86)\MSBuild\14.0\bin\amd64\MSBuild.exe - BuildTopics.proj]
-Build started 14/02/2019 4:32:49 PM.
+Build started 14/02/2019 4:43:56 PM.
 Project &quot;C:\Github\ItchToolkit\ItchToolkit\API\Help\Working\BuildTopics.proj&quot; on node 1 (default targets).
 BuildTopics:
   BuildAssembler (v2018.12.10.0)
@@ -148,14 +148,6 @@ BuildAssembler : warning : ShowMissingComponent: [M:ItchToolkit.DeveloperGamesRe
 BuildAssembler : warning : ShowMissingComponent: [M:ItchToolkit.DownloadKeyRequest.#ctor(System.String,System.String,System.String)] Missing &lt;param name=&quot;yourKey&quot;/&gt; documentation [C:\Github\ItchToolkit\ItchToolkit\API\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ItchToolkit.DownloadKeyRequest.#ctor(System.String,System.String,System.String)] Missing &lt;param name=&quot;gameID&quot;/&gt; documentation [C:\Github\ItchToolkit\ItchToolkit\API\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ItchToolkit.DownloadKeyRequest.#ctor(System.String,System.String,System.String)] Missing &lt;param name=&quot;userID&quot;/&gt; documentation [C:\Github\ItchToolkit\ItchToolkit\API\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:ItchToolkit.ItchGlobal] Missing &lt;summary&gt; documentation [C:\Github\ItchToolkit\ItchToolkit\API\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:ItchToolkit.ItchGlobal.GetResposeHTTPAsync(System.String)] Missing &lt;summary&gt; documentation [C:\Github\ItchToolkit\ItchToolkit\API\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:ItchToolkit.ItchGlobal.GetResposeHTTPAsync(System.String)] Missing &lt;returns&gt; documentation [C:\Github\ItchToolkit\ItchToolkit\API\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:ItchToolkit.ItchGlobal.GetResposeHTTPAsync(System.String)] Missing &lt;param name=&quot;URI&quot;/&gt; documentation [C:\Github\ItchToolkit\ItchToolkit\API\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:ItchToolkit.ItchGlobal.GetResposeHTTPAsyncAsByteArray(System.String)] Missing &lt;summary&gt; documentation [C:\Github\ItchToolkit\ItchToolkit\API\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:ItchToolkit.ItchGlobal.GetResposeHTTPAsyncAsByteArray(System.String)] Missing &lt;returns&gt; documentation [C:\Github\ItchToolkit\ItchToolkit\API\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:ItchToolkit.ItchGlobal.GetResposeHTTPAsyncAsByteArray(System.String)] Missing &lt;param name=&quot;URI&quot;/&gt; documentation [C:\Github\ItchToolkit\ItchToolkit\API\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [F:ItchToolkit.ItchGlobal.httpClient] Missing &lt;summary&gt; documentation [C:\Github\ItchToolkit\ItchToolkit\API\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ItchToolkit.ItchUserRequest.#ctor(System.String)] Missing &lt;param name=&quot;userKey&quot;/&gt; documentation [C:\Github\ItchToolkit\ItchToolkit\API\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ItchToolkit.ItchUserRequest.GetAvatarByteArray] Missing &lt;returns&gt; documentation [C:\Github\ItchToolkit\ItchToolkit\API\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ItchToolkit.ItchUserRequest.IsGameOwned(System.String,System.String)] Missing &lt;returns&gt; documentation [C:\Github\ItchToolkit\ItchToolkit\API\Help\Working\BuildTopics.proj]
@@ -164,21 +156,20 @@ BuildAssembler : warning : ShowMissingComponent: [M:ItchToolkit.ItchUserRequest.
 BuildAssembler : warning : ShowMissingComponent: [M:ItchToolkit.OAuthRequest.IsApiKeyValid(System.String)] Missing &lt;returns&gt; documentation [C:\Github\ItchToolkit\ItchToolkit\API\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ItchToolkit.OAuthRequest.IsApiKeyValid(System.String)] Missing &lt;param name=&quot;key&quot;/&gt; documentation [C:\Github\ItchToolkit\ItchToolkit\API\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:ItchToolkit.OAuthRequest.RequestOAuthApiKey(System.String)] Missing &lt;param name=&quot;clientID&quot;/&gt; documentation [C:\Github\ItchToolkit\ItchToolkit\API\Help\Working\BuildTopics.proj]
-  Processed 97 topic(s)
-  22 warning(s)
-  CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 5 of 15.
+  Processed 89 topic(s)
+  14 warning(s)
+  CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 3 of 15.
   CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 2 of 30.
-  ResolveReferenceLinksComponent: 1 entries added to the MSDN content ID cache.  New cache size: 15 entries
 Done Building Project &quot;C:\Github\ItchToolkit\ItchToolkit\API\Help\Working\BuildTopics.proj&quot; (default targets).
 
 Build succeeded.
 
-Time Elapsed 00:00:06.45
-    Last step completed in 00:00:06.8649
+Time Elapsed 00:00:05.74
+    Last step completed in 00:00:06.1913
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
-    Last step completed in 00:00:00.0000
+    Last step completed in 00:00:00.0040
 </buildStep>
 <buildStep step="ExtractingHtmlInfo">
 Extracting HTML info for HTML Help 1 and/or website...
@@ -190,17 +181,17 @@ E-Mail: Eric@EWoodruff.us
 Using LCID &#39;1033&#39;, code page &#39;65001&#39;, encoding charset &#39;UTF-8&#39;.
 
 Processing Help 1 files in C:\Github\ItchToolkit\ItchToolkit\API\Help\Working\Output\HtmlHelp1
-Processed 97 HTML files
+Processed 89 HTML files
 Sorting keywords and generating See Also indices
 Saving HTML Help 1 keyword index to C:\Github\ItchToolkit\ItchToolkit\API\Help\Working\Documentation.hhk
 Saving HTML Help 1 table of contents to C:\Github\ItchToolkit\ItchToolkit\API\Help\Working\Documentation.hhc
 
 Processing website files in C:\Github\ItchToolkit\ItchToolkit\API\Help\Working\Output\Website
-Processed 97 HTML files
+Processed 89 HTML files
 Sorting keywords and generating See Also indices
 Saving website keyword index to C:\Github\ItchToolkit\ItchToolkit\API\Help\Working\WebKI.xml
 Saving website table of contents to C:\Github\ItchToolkit\ItchToolkit\API\Help\Working\WebTOC.xml
-    Last step completed in 00:00:01.2950
+    Last step completed in 00:00:01.5390
 </buildStep>
 <buildStep step="CopyStandardHelpContent">
 Copying standard help content...
@@ -406,7 +397,7 @@ C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyle
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\branding-Website.js -&gt; C:\Github\ItchToolkit\ItchToolkit\API\Help\Working\Output\Website\scripts\branding-Website.js
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\clipboard.min.js -&gt; C:\Github\ItchToolkit\ItchToolkit\API\Help\Working\Output\Website\scripts\clipboard.min.js
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\jquery-3.3.1.min.js -&gt; C:\Github\ItchToolkit\ItchToolkit\API\Help\Working\Output\Website\scripts\jquery-3.3.1.min.js
-    Last step completed in 00:00:00.3250
+    Last step completed in 00:00:00.4110
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Generating HTML Help 1 table of contents file...
@@ -418,7 +409,7 @@ Generating HTML Help 1 index file...
 </buildStep>
 <buildStep step="GenerateHelpProject">
 Generating HTML Help 1 project file...
-    Last step completed in 00:00:00.0104
+    Last step completed in 00:00:00.0060
 </buildStep>
 <buildStep step="CompilingHelpFile">
 Compiling HTML Help 1 file...
@@ -435,9 +426,9 @@ Compiling HTML Help 1 file...
   
   Compile time: 0 minutes, 1 second
   
-  99	Topics
+  91	Topics
   
-  982	Local links
+  904	Local links
   
   0	Internet links
   
@@ -447,11 +438,11 @@ Compiling HTML Help 1 file...
   
   
   
-  Created c:\Github\ItchToolkit\ItchToolkit\API\Help\Working\Output\HtmlHelp1\Documentation.chm, 160,079 bytes
+  Created c:\Github\ItchToolkit\ItchToolkit\API\Help\Working\Output\HtmlHelp1\Documentation.chm, 152,459 bytes
   
-  Compression decreased file by 732,031 bytes.
+  Compression decreased file by 677,840 bytes.
   
-    Last step completed in 00:00:02.4148
+    Last step completed in 00:00:03.1210
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Executing informational Generate Table of Contents build step for plug-ins (not used for MS Help Viewer)
@@ -465,11 +456,11 @@ Executing informational Generate Help Project build step for plug-ins (not used 
 Generating MS Help Viewer file...
 [C:\Program Files (x86)\MSBuild\14.0\bin\amd64\MSBuild.exe - BuildHelpViewerFile.proj]
   Compressing help content files...
-  Compression finished.  164 items added
+  Compression finished.  156 items added
   Saving C:\Github\ItchToolkit\ItchToolkit\API\Help\Documentation.mshc...
   Finished saving C:\Github\ItchToolkit\ItchToolkit\API\Help\Documentation.mshc
-  Compressed 4 folders, 160 files.  Reduced size by 618,683 bytes (69%).
-    Last step completed in 00:00:02.0652
+  Compressed 4 folders, 152 files.  Reduced size by 575,702 bytes (69%).
+    Last step completed in 00:00:02.3970
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Generating website table of contents file...
@@ -480,21 +471,21 @@ Generating full-text index for the website...
 
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
 Adding lightweight search and TOC elements to each topic...
-</plugIn>    Last step completed in 00:00:00.2648
+</plugIn>    Last step completed in 00:00:00.2950
 </buildStep>
 <buildStep step="CopyingWebsiteFiles">
 Copying website files to output folder...
 
-Copied 224 files for the website content
-    Last step completed in 00:00:00.3600
+Copied 213 files for the website content
+    Last step completed in 00:00:00.4160
 </buildStep>
 <buildStep step="CleanIntermediates">
 Removing intermediate files...
-    Last step completed in 00:00:00.2199
+    Last step completed in 00:00:00.4920
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 14/02/2019 4:33:02 PM.  Total time: 00:00:21.1698
+Build completed successfully at 14/02/2019 4:44:11 PM.  Total time: 00:00:21.8725
 
 </buildStep>
 </shfbBuild>
