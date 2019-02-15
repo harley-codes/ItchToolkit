@@ -90,14 +90,14 @@
             {
                 user = new RequestType.User();
                 var jsonObject = System.Json.JsonValue.Parse(jsonResponse);
-                user.avatarURL = jsonObject["user"]["cover_url"];
-                user.displayName = jsonObject["user"]["display_name"];
-                user.isDeveloper = jsonObject["user"]["developer"];
-                user.userID = jsonObject["user"]["id"];
-                user.profileURL = jsonObject["user"]["url"];
-                user.isGamer = jsonObject["user"]["gamer"];
-                user.userName = jsonObject["user"]["username"];
-                user.isPressUser = jsonObject["user"]["press_user"];
+                user.avatarURL = jsonObject["user"].ContainsKey("cover_url") ? (string)jsonObject["user"]["cover_url"] : "";
+                user.displayName = jsonObject["user"].ContainsKey("display_name") ? (string)jsonObject["user"]["display_name"] : "";
+                user.isDeveloper = jsonObject["user"].ContainsKey("developer") ? (bool)jsonObject["user"]["developer"] : false;
+                user.userID = jsonObject["user"].ContainsKey("id") ? (int)jsonObject["user"]["id"] : 0;
+                user.profileURL = jsonObject["user"].ContainsKey("url") ? (string)jsonObject["user"]["url"] : "";
+                user.isGamer = jsonObject["user"].ContainsKey("gamer") ? (bool)jsonObject["user"]["gamer"] : false;
+                user.userName = jsonObject["user"].ContainsKey("username") ? (string)jsonObject["user"]["username"] : "";
+                user.isPressUser = jsonObject["user"].ContainsKey("press_user") ? (bool)jsonObject["user"]["press_user"] : false;
             }
         }
         /// <summary>

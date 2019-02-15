@@ -110,19 +110,19 @@ namespace ItchToolkit
                     downloadKey = new RequestType.DownloadKey();
                     downloadKey.owner = new ItchUserRequest.RequestType.User();
                     var jsonObject = System.Json.JsonValue.Parse(jsonResponse);
-                    downloadKey.dateCreated = jsonObject["download_key"]["created_at"];
-                    downloadKey.gameID = jsonObject["download_key"]["game_id"];
-                    downloadKey.downloads = jsonObject["download_key"]["downloads"];
-                    downloadKey.keyID = jsonObject["download_key"]["id"];
-                    downloadKey.owner.avatarURL = jsonObject["download_key"]["owner"]["cover_url"];
-                    downloadKey.owner.displayName = jsonObject["download_key"]["owner"]["display_name"];
-                    downloadKey.owner.isDeveloper = jsonObject["download_key"]["owner"]["developer"];
-                    downloadKey.owner.userID = jsonObject["download_key"]["owner"]["id"];
-                    downloadKey.owner.profileURL = jsonObject["download_key"]["owner"]["url"];
-                    downloadKey.owner.isGamer = jsonObject["download_key"]["owner"]["gamer"];
-                    downloadKey.owner.userName = jsonObject["download_key"]["owner"]["username"];
-                    downloadKey.owner.isPressUser = jsonObject["download_key"]["owner"]["press_user"];
-                    downloadKey.downloadKey = jsonObject["download_key"]["key"];
+                    downloadKey.dateCreated = jsonObject["download_key"].ContainsKey("created_at") ? (string)jsonObject["download_key"]["created_at"] : "";
+                    downloadKey.gameID = jsonObject["download_key"].ContainsKey("game_id") ? (int)jsonObject["download_key"]["game_id"] : 0;
+                    downloadKey.downloads = jsonObject["download_key"].ContainsKey("downloads") ? (int)jsonObject["download_key"]["downloads"] : 0;
+                    downloadKey.keyID = jsonObject["download_key"].ContainsKey("id") ? (int)jsonObject["download_key"]["id"] : 0;
+                    downloadKey.owner.avatarURL = jsonObject["download_key"]["owner"].ContainsKey("cover_url") ? (string)jsonObject["download_key"]["owner"]["cover_url"] : "";
+                    downloadKey.owner.displayName = jsonObject["download_key"]["owner"].ContainsKey("display_name") ? (string)jsonObject["download_key"]["owner"]["display_name"] : "";
+                    downloadKey.owner.isDeveloper = jsonObject["download_key"]["owner"].ContainsKey("developer") ? (bool)jsonObject["download_key"]["owner"]["developer"] : false;
+                    downloadKey.owner.userID = jsonObject["download_key"]["owner"].ContainsKey("id") ? (int)jsonObject["download_key"]["owner"]["id"] : 0;
+                    downloadKey.owner.profileURL = jsonObject["download_key"]["owner"].ContainsKey("url") ? (string)jsonObject["download_key"]["owner"]["url"] : "";
+                    downloadKey.owner.isGamer = jsonObject["download_key"]["owner"].ContainsKey("gamer") ? (bool)jsonObject["download_key"]["owner"]["gamer"] : false;
+                    downloadKey.owner.userName = jsonObject["download_key"]["owner"].ContainsKey("username") ? (string)jsonObject["download_key"]["owner"]["username"] : "";
+                    downloadKey.owner.isPressUser = jsonObject["download_key"]["owner"].ContainsKey("press_user") ? (bool)jsonObject["download_key"]["owner"]["press_user"] : false;
+                    downloadKey.downloadKey = jsonObject["download_key"].ContainsKey("key") ? (string)jsonObject["download_key"]["key"] : "";
                     break;
             }
         }
